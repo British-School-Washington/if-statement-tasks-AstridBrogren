@@ -3,18 +3,15 @@ score = int(input("Enter your score: "))
 
 # if the score is 90 or above
 if score >= 90:
-    # TODO: Assign the grade "A" to a variable
-
+   print("you got a")
 # if the score is between 80 and 89
 elif score >= 80:
-    # TODO: Assign the grade "B" to a variable
-
+   print("you got b")
 # if the score is between 70 and 79
 elif score >= 70:
-    # TODO: Assign the grade "C" to a variable
-
+    print("you got c")
 # if the score is below 70
 else:
-    # TODO: Assign the grade "Fail" to a variable
+   print("you failed")
 
-# TODO: Print the grade variable
+print("grade")
